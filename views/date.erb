@@ -1,7 +1,7 @@
 <html>
   <body>
-    <%current_time = DateTime.now%>
-    <%cdt = current_time.strftime "%d/%m/%Y %H:%M"%>
+    <%current_time = Date.today%>
+    <%cdt = current_time.strftime("%A, %B %d, %Y")%>
     <h1> The date is Wednesday, November 18, 2015 <%=current_time%>  </h1>
 
   </body>
